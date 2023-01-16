@@ -1,0 +1,35 @@
+.Btn{
+    background-color: #3A80E9;
+    padding: 0.45rem 1.5rem;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid rgba(58, 128, 233, 1);
+    text-align: center;
+    min-width: 80px;
+}
+.Btn:hover{
+    box-shadow: 5px 5px 10px #3A80E9;
+    transition: all 0.5s ease-in-out;
+}
+.Btn-out{
+    background-color: black;
+    padding: 0.45rem 1.5rem;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid rgba(58, 128, 233, 1);
+    transition: all 0.3sec;
+
+}
+.Btn-out:hover{
+    background-color: #3A80E9;
+    transition: all 0.3sec;
+}
+
+@media only screen and (max-width: 800px){
+    .Btn,.Btn-out{
+        font-size: 13px;
+    }
+    
+}
